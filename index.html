@@ -1,86 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>61418</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    html, body {
+      height: 100%;
+      background: #000000;
+    }
 
     body {
-        margin: 0;
-        background: #000000;
-        color: #ffffff;
-        font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-size: 12pt;
-        min-height: 100vh;
+      margin: 0;
+      color: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12pt;
+
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: stretch;
+    }
+
+    .wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 20px 40px 20px;
+
+      flex: 1;
+      display: flex;
+      flex-direction: column;
     }
 
     header {
-        padding: 60px 20px 40px 20px;
-        font-weight: bold;
-        font-size: clamp(28px, 6vw, 42px);
-        line-height: 1;
-        max-width: 800px;
-        margin: 0 auto;
+      font-weight: bold;
+      font-size: clamp(28px, 6vw, 42px);
+      line-height: 1;
+      margin: 0 0 40px 0;
+      text-align: center;
     }
 
     main {
-        max-width: 800px;
-        margin: 0 auto;        /* equal left/right margins */
-        padding: 0 20px 80px 20px;
-        line-height: 1.6;
+      flex: 1;
+      line-height: 1.6;
     }
 
     p {
-        margin-bottom: 1.5em;
+      margin: 0 0 1.5em 0;
     }
 
     a {
-        color: #ffffff;
-        text-decoration: underline;
+      color: #ffffff;
+      text-decoration: underline;
     }
 
-    </style>
+    footer {
+      margin: 0;
+      padding-top: 20px;
+      font-size: 10pt;
+      color: #666;
+      text-align: left;
+    }
+  </style>
 </head>
+
 <body>
+  <div class="wrap">
+    <header>61418</header>
 
-  <header>61418</header>
-
-  <main>
+    <main>
       <p>61418 was born February 24th, 2026.</p>
 
       <p>
-        It was founded by 
-        <a href="https://www.linkedin.com/in/lettsmichael/" target="_blank">Mike Letts</a>
-        in order to bring together software engineers who build and 
-        maintain open-source software which address gaps in the AWS Python SDK and 
-        general AWS ecosystem under one roof.
+        It was founded by
+        <a href="https://www.linkedin.com/in/lettsmichael/" target="_blank" rel="noopener noreferrer">Mike Letts</a>
+        in order to bring together software engineers who build and maintain open-source software
+        which address gaps in the AWS Python SDK and general AWS ecosystem under one roof.
       </p>
 
       <p>
-        61418 has a bias for Python and modern Python tools like 
-        <a href="https://github.com/pradyunsg/furo" target="_blank">Furo</a>, 
-        <a href="https://github.com/astral-sh/uv" target="_blank">uv</a>, etc.
-        We are open to maintaining projects written in other languages as well, 
-        so long as they are thoughtful, modern, and bring value to the AWS ecosystem. 
+        61418 has a bias for Python and modern Python tools like
+        <a href="https://github.com/pradyunsg/furo" target="_blank" rel="noopener noreferrer">Furo</a>,
+        <a href="https://github.com/astral-sh/uv" target="_blank" rel="noopener noreferrer">uv</a>, etc.
+        We are open to maintaining projects written in other languages as well, so long as they are
+        thoughtful, modern, and bring value to the AWS ecosystem.
       </p>
 
       <p>
         To see which projects 61418 maintains, check out our
-        <a href="https://github.com/61418" target="_blank">GitHub</a>.
+        <a href="https://github.com/61418" target="_blank" rel="noopener noreferrer">GitHub</a>.
       </p>
 
       <p>
-        To learn more about joining 61418 as a contributor, inquire about our work,
-        or just say hello, please contact
-        <a href="mailto:general@61418.io">general@61418.io</a>.
+        To learn more about joining 61418 as a contributor, inquire about our work, or just say hello,
+        please contact <a href="mailto:general@61418.io">general@61418.io</a>.
       </p>
 
       <p>
         To keep up with us on LinkedIn, follow our
-        <a href="https://www.linkedin.com/company/sixfourteeneighteen" target="_blank">organization's page</a>.
+        <a href="https://www.linkedin.com/company/sixfourteeneighteen" target="_blank" rel="noopener noreferrer">organization's page</a>.
       </p>
-  </main>
+    </main>
 
+    <footer>
+    © <script>document.write(new Date().getFullYear())</script>, 61418.
+    </footer>
+  </div>
 </body>
 </html>
