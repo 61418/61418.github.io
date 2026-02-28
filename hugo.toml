@@ -9,7 +9,7 @@ enableRobotsTXT = true
 [params]
   author = 'Mike Letts'
   description = 'Independent open-source software which enhances the AWS Python SDK and general AWS ecosystem.'
-  css_version = '12'
+  css_version = '15'
   og_image = "og.png"
   og_image_alt = "61418 logo"
   og_type = "website"
