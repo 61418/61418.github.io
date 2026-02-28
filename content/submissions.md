@@ -5,7 +5,7 @@ menu = "main"
 weight = 2
 +++
 
-# Submission Standards
+# Submission standards and guidelines
 
 61418 curates durable and thoughtfully designed tooling in and around the AWS ecosystem.
 
@@ -13,7 +13,7 @@ We are not an incubator for experiments nor a vanity umbrella for personal repos
 
 Members believe infrastructure should be deliberate, legible, durable, and beautiful, not accidental. 
 
-## What We Look For
+## What/who we look for
 
 For a project to be considered for inclusion in 61418’s catalog, it must satisfy the following principles:
 
@@ -26,7 +26,7 @@ For a project to be considered for inclusion in 61418’s catalog, it must satis
     - A materially better developer experience or performance profile.
 - We are not interested in superficial rewrites or marginal variations.
 
-### 2. It Is Built for Longevity
+### 2. It is built for longevity
 
 - Projects must demonstrate clear intention toward long-term maintainability and clarity.
 - For Python projects, this currently includes:
@@ -41,13 +41,13 @@ For a project to be considered for inclusion in 61418’s catalog, it must satis
     - All hosted documentation must conform to 61418’s visual identity, including logos and favicon usage from the 61418 logo catalog.
     - Tooling standards may evolve over time, but consistency and legibility are non-negotiable.
 
-### 3. It Reflects Craft
+### 3. It reflects craft
 
 - Code quality matters. Naming matters. Documentation matters. Visual coherence matters.
 - We are building a catalog of tools that reflect care, not just utility.
 - If a project is admitted to 61418, it represents not only its maintainer, but the collective.
 
-## Stewardship Expectations
+## Stewardship expectations
 
 Submitting a project to 61418 implies a commitment to maintain it thoughtfully over the long term.
 
@@ -55,7 +55,7 @@ We are not interested in abandoned experiments or resume-padding artifacts. We a
 
 Projects may remain under their original authorship, but admission to 61418 implies alignment with its standards and philosophy.
 
-## How to Submit
+## How to submit
 
 If your project meets these criteria and you are committed to maintaining it with seriousness and care, please contact general@61418.io.
 
