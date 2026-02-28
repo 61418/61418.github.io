@@ -1,0 +1,28 @@
+baseURL = 'https://61418.io/'
+relativeURLs = true
+canonifyURLs = false
+languageCode = 'en-us'
+title = '61418'
+copyright = '© Copyright 2026, 61418'
+enableRobotsTXT = true
+
+[params]
+  author = 'Mike Letts'
+  description = 'Independent open-source software which enhances the AWS Python SDK and general AWS ecosystem.'
+  css_version = '12'
+  og_image = "og.png"
+  og_image_alt = "61418 logo"
+  og_type = "website"
+  twitter_card = "summary_large_image"
+
+[menus]
+  [[menus.main]]
+    name = 'Home'
+    url = '/'
+    pageRef = '/'
+    weight = 1
+  [[menus.main]]
+    identifier = 'blog'
+    name = 'Blog'
+    url = '/blog/'
+    weight = 3 

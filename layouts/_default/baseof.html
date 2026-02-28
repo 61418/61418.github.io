@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode | default "en-us" }}">
+<head>
+  {{ $metaTitle := cond .IsHome site.Title (printf "%s | %s" .Title site.Title) }}
+  {{ $metaDescription := .Description | default site.Params.description | default site.Title }}
+  {{ $rawImage := .Params.og_image | default site.Params.og_image | default "og.png" }}
+  {{ $metaImage := cond (or (hasPrefix $rawImage "http://") (hasPrefix $rawImage "https://")) $rawImage ($rawImage | absURL) }}
+  {{ $metaImageAlt := .Params.og_image_alt | default site.Params.og_image_alt | default (printf "%s logo" site.Title) }}
+  {{ $metaType := .Params.og_type | default site.Params.og_type | default "website" }}
+  {{ $twitterCard := .Params.twitter_card | default site.Params.twitter_card | default "summary_large_image" }}
+
+  <meta charset="UTF-8">
+  <title>{{ $metaTitle }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#000000">
+  <meta name="author" content="{{ site.Params.author | default "Mike Letts" }}">
+  <meta name="description" content="{{ $metaDescription }}">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "favicon.png" | relURL }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "favicon.png" | relURL }}">
+
+  <meta property="og:title" content="{{ $metaTitle }}">
+  <meta property="og:description" content="{{ $metaDescription }}">
+  <meta property="og:image" content="{{ $metaImage }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="{{ $metaType }}">
+  <meta property="og:site_name" content="{{ site.Title }}">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:image:alt" content="{{ $metaImageAlt }}">
+
+  <meta name="twitter:card" content="{{ $twitterCard }}">
+  <meta name="twitter:title" content="{{ $metaTitle }}">
+  <meta name="twitter:description" content="{{ $metaDescription }}">
+  <meta name="twitter:image" content="{{ $metaImage }}">
+  <meta name="twitter:image:alt" content="{{ $metaImageAlt }}">
+
+  <link rel="stylesheet" href="{{ printf "%s?v=%s" ("css/site.css" | relURL) (site.Params.css_version | default "1") }}">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="site-title-link" href="{{ "/" | relURL }}">{{ site.Title }}</a>
+      {{ with site.Menus.main }}
+        <nav class="site-nav" aria-label="Main navigation">
+          {{ range . }}
+            <a href="{{ .URL | relURL }}">{{ .Name }}</a>
+          {{ end }}
+        </nav>
+      {{ end }}
+    </header>
+
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+
+    <footer>
+      &copy; {{ now.Format "2006" }}, {{ site.Title }}.
+    </footer>
+  </div>
+</body>
+</html>

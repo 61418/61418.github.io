@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "SiteHelvetica";
+  src: url("/fonts/Helvetica.ttc");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+:root {
+  background-color: #000000;
+}
+
+html {
+  min-height: 100%;
+  background-color: #000000;
+  scrollbar-gutter: stable;
+}
+
+body {
+  margin: 0;
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "SiteHelvetica", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12pt;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: stretch;
+}
+
+.wrap {
+  width: min(100%, 600px);
+  margin: 0 auto;
+  padding: 74px 44px 56px 44px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+header {
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 40px 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.site-title-link {
+  font-size: clamp(42px, 9vw, 64px);
+  font-weight: bold;
+  line-height: 1;
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.site-title-link:hover,
+.site-title-link:focus {
+  text-decoration: none;
+}
+
+.site-nav {
+  margin-top: 26px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  font-size: inherit;
+  font-weight: normal;
+}
+
+.site-nav a,
+.site-nav a:hover,
+.site-nav a:focus {
+  text-decoration: none;
+}
+
+main {
+  width: 100%;
+  flex: 1;
+  text-align: left;
+}
+
+.page-content {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: left !important;
+  line-height: 1.6;
+}
+
+.page-content > * {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.page-content > :first-child {
+  margin-top: 0;
+}
+
+.page-content > :last-child {
+  margin-bottom: 0;
+}
+
+.page-content h1,
+.page-content h2,
+.page-content h3,
+.page-content h4,
+.page-content h5,
+.page-content h6 {
+  margin: 0 0 1em 0;
+  text-align: left !important;
+  line-height: 1.2;
+}
+
+.page-content p {
+  margin: 0 0 1.5em 0;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 0;
+  padding-top: 20px;
+  font-size: inherit;
+  color: #ffffff;
+  text-align: left;
+}
