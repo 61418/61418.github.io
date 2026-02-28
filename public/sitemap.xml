@@ -2,14 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/submissions/</loc>
+    <loc>https://61418.io/submissions/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://61418.io/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://61418.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://61418.io/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://61418.io/tags/</loc>
   </url>
 </urlset>

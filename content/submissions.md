@@ -7,7 +7,7 @@ weight = 2
 
 # Submission Standards
 
-61418 curates durable, thoughtfully designed tooling in and around the AWS ecosystem.
+61418 curates durable and thoughtfully designed tooling in and around the AWS ecosystem.
 
 We are not an incubator for experiments nor a vanity umbrella for personal repositories. Projects admitted under the 61418 banner are expected to be maintained with genuine care, seriousness, aesthetic coherence, and long-term stewardship in mind.
 
