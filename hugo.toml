@@ -26,3 +26,8 @@ enableRobotsTXT = true
     name = 'Blog'
     url = '/blog/'
     weight = 3 
+  [[menus.main]]
+    identifier = 'rss'
+    name = 'RSS'
+    url = '/blog/index.xml'
+    weight = 4
