@@ -22,12 +22,17 @@ enableRobotsTXT = true
     pageRef = '/'
     weight = 1
   [[menus.main]]
+    identifier = 'github'
+    name = 'GitHub'
+    url = 'https://github.com/61418'
+    weight = 2
+  [[menus.main]]
     identifier = 'blog'
     name = 'Blog'
     url = '/blog/'
-    weight = 3 
+    weight = 4
   [[menus.main]]
     identifier = 'rss'
     name = 'RSS'
     url = '/blog/index.xml'
-    weight = 4
+    weight = 5

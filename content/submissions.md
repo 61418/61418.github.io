@@ -2,7 +2,7 @@
 title = "Submissions"
 description = "Standards and guidelines for submitting projects to 61418."
 menu = "main"
-weight = 2
+weight = 3
 +++
 
 # Submission standards and guidelines
