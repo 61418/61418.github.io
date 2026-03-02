@@ -1,0 +1,19 @@
+{{ define "main" }}
+  <div class="page-content">
+    {{ .Content }}
+    {{ $posts := .RegularPages.ByDate.Reverse }}
+    {{ if gt (len $posts) 0 }}
+      <section class="post-list" aria-label="Blog posts">
+        {{ range $posts }}
+          <article class="post-list-item">
+            <h2>
+              {{ .Date.Format "January 2, 2006" }} - <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            </h2>
+          </article>
+        {{ end }}
+      </section>
+    {{ else }}
+      <p>No posts yet.</p>
+    {{ end }}
+  </div>
+{{ end }}
