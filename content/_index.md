@@ -1,6 +1,8 @@
----
-title: "Home"
----
++++
+title = "Home"
+description = "61418 is an independent open-source software collective born February 24th, 2026."
+menu = "main"
++++
 
 61418 is an independent open-source software collective born February 24th, 2026.
 
