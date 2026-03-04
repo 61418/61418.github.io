@@ -36,3 +36,12 @@ enableRobotsTXT = true
     name = 'RSS'
     url = '/blog/index.xml'
     weight = 6
+
+[services]
+  [services.googleAnalytics]
+    id = "G-6GM5EQW5RC"
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = false
+    respectDoNotTrack = true
