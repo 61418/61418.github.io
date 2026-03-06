@@ -3,6 +3,7 @@ date = '2026-03-02T03:08:26-05:00'
 draft = false
 title = "boto3-client-cache has been transferred to 61418"
 description = "61418 is proud to announce its first project to enter the catalog: boto3-client-cache"
+tags = ["boto3-client-cache", "aws", "open source", "61418", "mike letts"]
 +++
 
 61418 is proud to announce its first project to enter the catalog: [boto3-client-cache](https://pypi.org/project/boto3-client-cache/).
