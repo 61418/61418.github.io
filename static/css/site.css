@@ -2,7 +2,8 @@
   font-family: "SiteHelvetica";
   src: url("/fonts/Helvetica.ttc");
   font-style: normal;
-  font-weight: 100 900;
+  /* Treat bundled Helvetica as regular weight only; allow bold synthesis/fallback. */
+  font-weight: 400;
   font-display: swap;
 }
 
@@ -122,6 +123,14 @@ main {
 
 .page-content p {
   margin: 0 0 1.5em 0;
+}
+
+.page-content strong,
+.page-content b,
+strong,
+b {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
 }
 
 .post-list-item h2 {
