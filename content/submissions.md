@@ -30,12 +30,15 @@ For a project to be considered for inclusion in 61418’s catalog, it must satis
 
 - Projects must demonstrate clear intention toward long-term maintainability and clarity.
 - For Python projects, this currently includes:
+    - Extensive testing
+    - Comprehensive and insightful typing annotations
+    - Coherent and thoughtful CI/CD
     - Dependency management with uv
     - Linting and formatting with ruff
     - Docstrings adhering to numpydoc standards
     - Comprehensive documentation generated with a modern tool (e.g., Sphinx) and a clean, minimal theme (e.g., Furo)
     - Documentation must include:
-        - Clear usage examples
+        - Clear usage examples and instructions
         - Caveats and tradeoffs
         - Architectural decisions where relevant
     - All hosted documentation must conform to 61418’s visual identity, including logos and favicon usage from the 61418 logo catalog.
@@ -44,8 +47,12 @@ For a project to be considered for inclusion in 61418’s catalog, it must satis
 ### 3. It reflects craft
 
 - Code quality matters. Naming matters. Documentation matters. Visual coherence matters.
-- We are building a catalog of tools that reflect care, not just utility.
+- We are building a catalog of tools that reflect care, not just utility. Utility should be assumed. Ergonomics, sadly, usually are not. 61418 rejects this, believing tools should be as easy to use and understand as possible.
 - If a project is admitted to 61418, it represents not only its maintainer, but the collective.
+
+### 4. Comfort with emergent design
+
+'Emergent design', to us, means we don't pretend to know everything and accept we can't plan everything. Accordingly, we _openly_ learn as we go and iterate without pause or embarassment. However, this does not mean we release bare-bones MVP's initially. We thoughtfully design projects early with extensibility and a 'two-way door' squarely in mind. Crucially, as builders and maintainers, we decenter ourselves from our projects, placing the user's trust and time above all else. **This collective's name -- a random, meaningless integer -- directly reflects that selfless, faceless attitude**.
 
 ## Stewardship expectations
 
