@@ -1,7 +1,7 @@
 +++
 date = '2026-03-15T09:20:15-04:00'
 draft = false
-title = '61418's application for a PyPI organization was approved'
+title = "61418's application for a PyPI organization was approved"
 tags = ['pypi']
 +++
 
