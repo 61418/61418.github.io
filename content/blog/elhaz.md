@@ -1,7 +1,7 @@
 +++
 date = '2026-03-22T09:21:15-04:00'
 draft = false
-title = 'elhaz has been added to 61418's catalog'
+title = "elhaz has been added to 61418's catalog"
 description = '61418 is proud to add elhaz into its catalog.'
 tags = ['boto3-refresh-session', 'aws', 'open source', '61418', 'mike letts', 'cli']
 +++
