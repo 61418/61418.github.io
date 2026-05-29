@@ -27,14 +27,14 @@ enableRobotsTXT = true
     url = 'https://github.com/61418'
     weight = 2
   [[menus.main]]
-    identifier = 'blog'
-    name = 'Blog'
-    url = '/blog/'
+    identifier = 'announcements'
+    name = 'Announcements'
+    url = '/announcements/'
     weight = 5
   [[menus.main]]
     identifier = 'rss'
     name = 'RSS'
-    url = '/blog/index.xml'
+    url = '/announcements/index.xml'
     weight = 6
 
 [services]
