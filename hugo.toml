@@ -32,10 +32,15 @@ enableRobotsTXT = true
     url = '/announcements/'
     weight = 5
   [[menus.main]]
+    identifier = 'projects'
+    name = 'Projects'
+    url = '/projects/'
+    weight = 6
+  [[menus.main]]
     identifier = 'rss'
     name = 'RSS'
     url = '/announcements/index.xml'
-    weight = 6
+    weight = 7
 
 [services]
   [services.googleAnalytics]
